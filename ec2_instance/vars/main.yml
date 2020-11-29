@@ -1,0 +1,8 @@
+---
+# AWS Configuration
+aws_region: "us-east-2"
+ec2_instance_type: "t3.medium"
+ec2_image: "ami-0d2751e39abf67ea8"
+ec2_keypair: "dp-devops"
+ec2_profile: "AmazonSSMManagedInstanceCore"
+ec2_sg_name: "sg-sonarqube-base"

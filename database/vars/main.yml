@@ -1,2 +1,4 @@
 ---
-# vars file for database
+# Sonar Base Database
+db_name = ""
+db_user = ""

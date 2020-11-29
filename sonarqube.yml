@@ -1,0 +1,12 @@
+---
+
+# Playbook setup sonarqube 8.x in AWS EC2 Instance
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  user: ubuntu
+  roles:
+    - role: ec2_instance
+    - role: database
+    - role: sonarqube
+    - role: webserver
